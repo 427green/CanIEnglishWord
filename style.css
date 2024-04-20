@@ -1,0 +1,99 @@
+/* 全体のスタイリング */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jersey+10+Charted&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+}
+
+.top_title{
+    color: rgb(58, 48, 48);
+    text-align: left;
+    font-size: 100%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.counter-num{
+    position: absolute;
+    top: -25%;
+    left: 72%;
+    color: rgb(238, 1, 1);
+    font-size: 45px;
+    padding: 10px; 
+    white-space: nowrap;
+    text-shadow: 4px 4px 1px #ff9595;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+.counter-img{
+    position: fixed; /* 位置を固定 */
+    right: 25%; /* 右端から0の位置に配置 */
+    width: 100px; /* 必要に応じてサイズを調整 */
+    height: auto; /* 高さは自動調整 */
+}
+
+.counter-all-num{
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px; 
+
+    white-space: nowrap;
+}
+
+#operation{
+
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/* 単語セクションのスタイリング */
+#word-section, #study-section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#word, #meaning {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 入力欄とボタンのスタイリング */
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
